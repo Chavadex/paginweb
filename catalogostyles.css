@@ -1,0 +1,28 @@
+/* Estilos para la sección de las imágenes en el catálogo */
+.image-container {
+    display: grid;
+    grid-template-columns: repeat(2, 400px); /* Dos imágenes por fila, con más espacio entre ellas */
+    gap: 30px; /* Espacio entre las imágenes */
+    justify-content: center; /* Centra la cuadrícula en el eje horizontal */
+    align-items: center; /* Centra las imágenes verticalmente dentro de la cuadrícula */
+    justify-items: center; /* Centra las imágenes dentro de cada celda */
+    text-align: center; /* Centra cualquier texto en el contenedor */
+    margin-top: 40px; /* Separación del contenido anterior */
+    margin-bottom: 50px;
+}
+
+/* Estilo para cada imagen (rectángulo) */
+.image-container img {
+    width: 100%; /* Asegura que las imágenes se ajusten al tamaño del contenedor */
+    height: 200px; /* Mantiene la altura fija para los rectángulos */
+    object-fit: cover; /* Ajusta la imagen sin distorsionarla */
+    border-radius: 10px; /* Bordes redondeados para las imágenes */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave para darle profundidad */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transición para efectos */
+}
+
+/* Efecto al pasar el cursor sobre las imágenes */
+.image-container img:hover {
+    transform: scale(1.05); /* Aumenta ligeramente el tamaño de la imagen */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */
+}
