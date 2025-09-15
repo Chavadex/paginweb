@@ -1,0 +1,195 @@
+.f-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.f-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-navbar {
+  background-color: #040f0f;
+  width: 100%;
+  height: 100px;
+  margin: 0;
+}
+
+.logo-navbar {
+  background-color: #2d3a3a;
+  height: 100%;
+  width: 300px;
+  justify-content: center;
+}
+
+.logo-font-style {
+  color: white;
+  font-size: 1.5em;
+}
+
+.nav-index {
+  width: 15%;
+  height: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-sections {
+  flex: 1;
+  height: 100%;
+
+  margin: 0px;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  padding: 0px;
+}
+
+.nav-sections li {
+  color: white;
+  font-size: 2em;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  padding: 0px 50px 0px 50px;
+  justify-content: center;
+  height: 100%;
+}
+.nav-sections a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-sections li:hover {
+  color: #248232;
+  background-color: #2d3a3a;
+}
+
+.nav-social {
+  width: 400px;
+  height: 100%;
+  background-color: #248232;
+}
+
+.social-text {
+  margin-left: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: white;
+}
+.social-icons {
+  justify-content: space-around;
+  
+  font-size: 2em;
+  align-items: center;
+}
+.social-icons a{
+  color: white;
+}
+
+.normal-tex-box{
+  width: 50%; 
+  margin-left: 50px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: larger;
+}
+.image-biography{
+  width: 450px;
+  height: 450px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+  margin-right: 100px;
+}
+
+.biography{
+  background-color: white;
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  /*border: solid 3px;*/
+  height: auto; 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; 
+  align-items: center;
+}
+
+.games-container{
+  /* background-color: green; 
+  border: solid black 5px; */
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.tittle-anounce{
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  letter-spacing: 5px;
+  font-size: x-large;
+}
+
+.game-images-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; 
+  gap: 80px;
+  padding: 20px;
+}
+
+.game-image {
+  flex-basis: 40%;
+}
+
+.game-image img {
+  width: 100%; 
+  height: 200px; 
+  
+}
+
+.footer{
+  background-color: #2d3a3a;
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 0 20px;
+}
+
+.nav-social-footer{
+  width: 400px;
+  height: 100%;
+  
+}
+.nav-social-footer i{
+  margin-top: 50px;
+  
+}
+
+.placeholder-blank{
+  background-color: white;
+  /*border: solid 5px black;*/
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  height: 1000px;
+}
+
+.placeholder-blank{
+padding-left: 30px;
+}
+
+.forms{
+  padding-left: 20px;
+}
+.forms p{
+  font-size: x-large;
+}
+.message-input{
+  height: 150px;
+  width: 300px;
+}

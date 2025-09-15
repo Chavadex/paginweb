@@ -1,34 +1,90 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Página de Prueba</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            margin-top: 50px;
-            background-color: #f0f0f0;
-        }
-        h1 {
-            color: #333;
-        }
-        p {
-            color: #666;
-        }
-        a {
-            color: #0077cc;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
-</head>
-<body>
-    <h1>¡Hola, GitHub Pages!</h1>
-    <p>Esta es una página de prueba para verificar que GitHub Pages funciona correctamente.</p>
-    <p>Visita <a href="https://github.com">GitHub</a> para más información.</p>
-</body>
+<html>
+  <head>
+    <link rel="stylesheet" href="style/style.css" />
+    <script
+      src="https://kit.fontawesome.com/a32d0a86a9.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="nav-var-head" class="main-navbar f-row">
+      <div id="Logo-name" class="logo-navbar logo-font-style f-row nav-index">
+        <i class="fa-solid fa-gamepad"></i>
+        <h2>CHAVADEV</h2>
+      </div>
+      <div id="navbar-sections" class="f-row nav-sections">
+        <li class="f-col"><a href="index.html">Inicio</a></li>
+        <li class="f-col"><a href="experiencia.html">Experiencia</a></li>
+        <li class="f-col"><a href="contacto.html">Contacto</a></li>
+      </div>
+      <div id="social-media" class="nav-social f-col">
+        <div id="Social-text" class="social-text">
+          <h3>Encuentrame en:</h3>
+        </div>
+        <div id="social-media-icons" class="f-row logo-font-style social-icons">
+          <a href="https://www.linkedin.com/" target="_blank" rel="">
+            <i class="fa-brands fa-linkedin" ></i>
+          </a>
+          <a href="https://www.github.com/" target="_blank" rel="">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a href="https://www.instagram.com/" target="_blank" rel="">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="https://www.youtube.com/" target="_blank" rel="">
+            <i class="fa-brands fa-youtube"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+  <!--Apertura del main content--><div id= "main-content" class = "main-content">
+
+    <!--Apertura bio--><div class = "biography">
+        <div class="normal-tex-box">
+          <h3>Bienvenido</h3>
+          <p>Mi nombre es Chavadev y soy un desarrollador de videojuegos independiente Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro voluptas perspiciatis consequuntur ipsam! Maxime blanditiis enim reprehenderit corrupti, nesciunt asperiores, laboriosam dignissimos doloribus cupiditate repudiandae esse laudantium saepe? Labore, architecto.</p>
+        </div>
+        <div class="image-biography">
+          <img src="images/florkBiografia.jpg" alt="Una foto mia" width="400px" height="400px" >
+        </div>
+
+    </div><!--Cierre bio-->
+
+    <!--Apertura del games content--> <div class="games-container">
+      <div class="tittle-anounce">
+        <h2>MIS JUEGOS LANZADOS</h2>
+      </div>
+      <div class="game-images-container">
+          <div class="game-image"> <a href="www.google.com" target="_blank"><img src="images/placeholder.png" alt="Un placeholder"></a></div>
+          <div class="game-image"> <a href="" target="_blank"><img src="images/placeholder.png" alt="Un placeholder"></div></a>
+          <div class="game-image"> <a href="" target="_blank"><img src="images/placeholder.png" alt="Un placeholder"></div></a>
+          <div class="game-image"> <a href="" target="_blank"><img src="images/placeholder.png" alt="Un placeholder"></div></a>
+      </div>
+    </div> <!--Cierre gameCont-->
+
+
+    </div> <!--Cierre del main content-->
+  </body>
+
+  <footer>
+    <div class="footer">
+      
+      <div id="Logo-name" class="logo-navbar logo-font-style f-row nav-index">
+        <i class="fa-solid fa-gamepad"></i>
+        <h2>CHAVADEV</h2>
+      </div>
+
+      <div id="social-media" class="nav-social-footer f-col">
+        <div id="social-media-icons" class="f-row logo-font-style social-icons">
+          <a href="https://mx.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://www.github.com/" target="_blank" ><i class="fa-brands fa-github"></i></a>
+          <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+
+  </footer>
 </html>
